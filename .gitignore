@@ -1,15 +1,40 @@
-#pandochka_mva
+# Встроенные файлы приложений
+build /
+
+# Файлы для ART / Dalvik VM
+* .dex
+
+# Внешняя собственная папка сборки, созданная в Android Studio 2.2 и новее
+.externalNativeBuild
+
 # Файлы Gradle
 .gradle /
+
+# Подписание файлов
+.signing /
 
 # Конфигурации для конкретных пользователей
 * .iml
 
-# Файлы для ОС
-.DS_Store
-.DS_Store ?
-._ *
-.Spotlight-V100
-. Мусор
-ehthumbs.db
-Thumbs.db
+# Локальный файл конфигурации (путь sdk и т. Д.)
+local.properties
+
+# Лог-файлы
+*.журнал
+
+# Временные файлы редактора навигации Android Studio
+.navigation /
+
+# Android Studio сохраняет папку
+захватывает /
+
+# Файлы хранилища ключей
+# Раскомментируйте следующие строки, если вы не хотите проверять файлы хранилища ключей в.
+* .jks
+* .keystore
+
+# Сервисы Google (например, API или Firebase)
+google-services.json
+
+# Управление версиями
+vcs.xml
