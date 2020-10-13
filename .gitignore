@@ -1,4 +1,11 @@
-#pandochka_mva
+# Встроенные файлы приложений
+* .apk
+* .ap_
+* .aab
+
+# Локальный файл конфигурации (путь sdk и т. Д.)
+local.properties
+
 # Файлы Gradle
 .gradle /
 
@@ -7,9 +14,19 @@
 
 # Файлы для ОС
 .DS_Store
-.DS_Store ?
+.DS_Store?
 ._ *
 .Spotlight-V100
 . Мусор
 ehthumbs.db
 Thumbs.db
+
+# Управление версиями
+vcs.xml
+
+# ворс
+пух / промежуточные продукты /
+lint / сгенерированный /
+линт / выходы /
+lint / tmp /
+линт / отчеты /
